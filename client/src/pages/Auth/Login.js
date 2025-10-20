@@ -26,7 +26,7 @@ const Login = () => {
     }
   }
   return (
-    <div class="form-container">
+    <div className="form-container">
         <form className="form" onSubmit={loginHandler}>
           <div className="mb-3">
             <i className="fa-solid fa-circle-user"></i>
